@@ -9,12 +9,16 @@
 
 
 h1{
-    margin-bottom: 15px;
+    margin-bottom: 1em;
     color: rgb(0, 0, 0);
     text-align: center;
     font-size: 2em;
 }
 
+
+h2{
+    margin-bottom: 1em;
+}
 
 body{
     text-align: center;
@@ -25,6 +29,17 @@ a{
     text-decoration: none;
 }
 
+
+body main div{
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    background-color: orange;
+    border: 0.2em solid black;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-radius: 1em;
+}
 
 section{
     text-align: justify;
@@ -39,7 +54,7 @@ main {
 
 
 footer {
-    padding: 2em;
+    padding: 1em;
 }
 
 
@@ -61,6 +76,12 @@ nav ul li{
 }
 
 
+nav ul li:hover{
+    background-color: goldenrod;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 main p{
     padding: 1em;
 }
@@ -69,3 +90,6 @@ main p{
 ul a{
     color: white;
 }
+
+
+
