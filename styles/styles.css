@@ -17,7 +17,6 @@ img {
 }
 
 
-
 h1 {
     margin-bottom: 1em;
     color: rgb(0, 0, 0);
@@ -50,6 +49,13 @@ body main div {
     text-decoration: none;
     color: rgb(0, 0, 0);
     border-radius: 0.7em;
+    text-align: center;
+}
+
+
+body main div:hover {
+    transform: scale(1.2);
+    transition: all 200ms ease;
 }
 
 
@@ -74,28 +80,37 @@ footer {
 
 /* hier komt de styling voor de navigatie balk */
 
-nav ul {
-    background-color: rgb(0, 0, 0);
-    display: flex;  /* zorgt dat alles naast elkaar is */
-    justify-content: center;
-    align-items: center;
+.thtbanner {
+    height: 100px;
 }
 
 
-nav ul li {
+.thtbanner:hover {
+    background-color: goldenrod;
+    border-radius: 10px;
+}
+
+
+nav ul {
     background-color: rgb(0, 0, 0);
-    margin: 1em;
-    margin: 1em;
+    display: flex;  /* zorgt dat alles naast elkaar is */
+    justify-content: space-evenly;
+    align-items: center;
     list-style: none;
+}
+
+
+nav a {
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
     transition: all 200ms ease;
 }
 
 
-nav ul li:hover {
+nav a:hover {
     background-color: goldenrod;
-    padding: 5px;
+    
     border-radius: 10px;
-    margin: 10px;
 }
 
 
