@@ -17,6 +17,13 @@ img {
 }
 
 
+body main section {
+    text-align: center;
+    width: 1500px;
+    margin: 2em auto;
+}
+
+
 h1 {
     margin-bottom: 1em;
     color: rgb(0, 0, 0);
@@ -63,13 +70,6 @@ section {
     text-align: justify;
     padding-left: 6.5em;
     padding-right: 6.5em;
-}
-
-
-main {
-    text-align: center;
-    width: 1500px;
-    margin: 2em auto;
 }
 
 
