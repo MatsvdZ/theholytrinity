@@ -18,9 +18,14 @@ img {
 
 
 body main section {
-    text-align: center;
+    text-align: justify;
     width: 1500px;
     margin: 2em auto;
+}
+
+
+body main section h2 {
+    text-align: center;
 }
 
 
@@ -75,6 +80,7 @@ section {
 
 footer {
     padding: 1em;
+    display: block;
 }
 
 
