@@ -144,4 +144,8 @@ ul a {
 }
 
 
+.album {
+    max-height: 40em;
+    max-width: 30em;
+}
 
