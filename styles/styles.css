@@ -68,15 +68,15 @@ footer {
 }
 
 
-body header img {
-    margin-top: 0.5em;
-}
-
-
 main section {
     text-align: justify;
     width: 62em;
     margin: 2em auto;
+}
+
+
+body header img {
+    margin-top: 0.5em;
 }
 
 
@@ -110,9 +110,6 @@ main section a:hover {
     transform: scale(1.03);
     transition: all 200ms ease;
 }
-
-
-/* hier komt de styling voor de navigatie balk */
 
 
 nav ul {
