@@ -8,34 +8,13 @@
 }
 
 
-.banner {
-    margin-top: 1em;
-}
-
 img {
-    
     border-radius: 0.7em;
 }
 
 
-body main {
-    text-align: center;
-    margin: 1em;
-}
-
-body main section {
-    text-align: justify;
-    width: 75em;
-    margin: 2em auto;
-}
-
-
-body main section h2 {
-    text-align: center;
-}
-
-
 h1 {
+    margin-top: 1em;
     margin-bottom: 1em;
     color: rgb(0, 0, 0);
     text-align: center;
@@ -58,29 +37,25 @@ a {
 }
 
 
-body main div {
-    padding: 1em;
-    margin-top: 1em;
-    margin-bottom: 3em;
-    background-color: goldenrod;
-    border: 0.2em solid black;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    border-radius: 0.7em;
-    text-align: center;
+.thtbanner {
+    height: 5em;
 }
 
 
-body main div:hover {
-    transform: scale(1.2);
-    transition: all 200ms ease;
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-height: 16em;
 }
 
 
-section {
-    text-align: justify;
-    padding-left: 6.5em;
-    padding-right: 6.5em;
+.album {
+    margin-bottom: 0.5em;
+    max-height: 40em;
+    max-width: 30em;
+    min-height: 40em;
 }
 
 
@@ -92,30 +67,70 @@ footer {
 }
 
 
-/* hier komt de styling voor de navigatie balk */
-
-.thtbanner {
-    height: 5em;
+body header img {
+    margin-top: 0.5em;
 }
+
+
+main section {
+    text-align: justify;
+    width: 62em;
+    margin: 2em auto;
+}
+
+
+main section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+main section h2 {
+    text-align: center;
+}
+
+
+main section a {
+    display: block;
+    text-align: center;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    background-color: goldenrod;
+    border: 0.2em solid black;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-radius: 0.7em;
+}
+
+
+main section a:hover {
+    transform: scale(1.03);
+    transition: all 200ms ease;
+}
+
+
+/* hier komt de styling voor de navigatie balk */
 
 
 nav ul {
     background-color: rgb(0, 0, 0);
-    display: flex;  /* zorgt dat alles naast elkaar is */
+    display: flex;  
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
 }
 
 
-nav a {
+nav li {
     background-color: rgb(0, 0, 0);
     padding: 5px;
     transition: all 200ms ease;
 }
 
 
-nav a:hover {
+nav li:hover {
     background-color: goldenrod;
     border-radius: 10px;
 }
@@ -130,16 +145,8 @@ ul a {
     color: white;
 }
 
-.logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
 
 
-.album {
-    max-height: 40em;
-    max-width: 30em;
-}
+
+
 
