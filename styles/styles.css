@@ -55,7 +55,8 @@ a {
     margin-bottom: 0.5em;
     max-height: 40em;
     max-width: 30em;
-    min-height: 40em;
+    width: 100%;
+    height: auto;
 }
 
 
